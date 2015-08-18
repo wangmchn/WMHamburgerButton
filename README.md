@@ -14,6 +14,6 @@ And also support xib / storyboard.<br>
 ## Usage
 
 The `WMHamburgerButton` is extended from `UIControl`, you can use it just like a button.<br>
-Constrain it's `frame` either by `frame property` or `autoLayout`!
+Constrain it's `frame` either by `frame` property or `autoLayout`!
 
 ## AND THAT'S IT, ENJOY!
