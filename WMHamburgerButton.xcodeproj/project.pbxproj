@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D4E54851B8370CC00DBC0CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E54841B8370CC00DBC0CB /* main.m */; };
+		4D4E54881B8370CC00DBC0CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E54871B8370CC00DBC0CB /* AppDelegate.m */; };
+		4D4E548B1B8370CC00DBC0CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E548A1B8370CC00DBC0CB /* ViewController.m */; };
+		4D4E548E1B8370CC00DBC0CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D4E548C1B8370CC00DBC0CB /* Main.storyboard */; };
+		4D4E54901B8370CC00DBC0CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D4E548F1B8370CC00DBC0CB /* Images.xcassets */; };
+		4D4E54931B8370CC00DBC0CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D4E54911B8370CC00DBC0CB /* LaunchScreen.xib */; };
+		4D4E549F1B8370CC00DBC0CB /* WMHamburgerButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E549E1B8370CC00DBC0CB /* WMHamburgerButtonTests.m */; };
+		4D4E54AD1B8370EA00DBC0CB /* WMHamburgerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E54AB1B8370EA00DBC0CB /* WMHamburgerButton.m */; };
+		4D4E54CF1B83763600DBC0CB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E54B61B83763600DBC0CB /* MASCompositeConstraint.m */; };
+		4D4E54D01B83763600DBC0CB /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E54B91B83763600DBC0CB /* MASConstraint.m */; };
+		4D4E54D11B83763600DBC0CB /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E54BB1B83763600DBC0CB /* MASConstraintMaker.m */; };
+		4D4E54D21B83763600DBC0CB /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E54BD1B83763600DBC0CB /* MASLayoutConstraint.m */; };
+		4D4E54D31B83763600DBC0CB /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E54C11B83763600DBC0CB /* MASViewAttribute.m */; };
+		4D4E54D41B83763600DBC0CB /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E54C31B83763600DBC0CB /* MASViewConstraint.m */; };
+		4D4E54D51B83763600DBC0CB /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E54C51B83763600DBC0CB /* NSArray+MASAdditions.m */; };
+		4D4E54D61B83763600DBC0CB /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E54C81B83763600DBC0CB /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		4D4E54D71B83763600DBC0CB /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E54CA1B83763600DBC0CB /* View+MASAdditions.m */; };
+		4D4E54D81B83763600DBC0CB /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E54CD1B83763600DBC0CB /* ViewController+MASAdditions.m */; };
+		4D4E54DA1B83770300DBC0CB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D4E54D91B83770300DBC0CB /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D4E54991B8370CC00DBC0CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D4E54771B8370CC00DBC0CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D4E547E1B8370CC00DBC0CB;
+			remoteInfo = WMHamburgerButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D4E547F1B8370CC00DBC0CB /* WMHamburgerButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WMHamburgerButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D4E54831B8370CC00DBC0CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D4E54841B8370CC00DBC0CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D4E54861B8370CC00DBC0CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D4E54871B8370CC00DBC0CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D4E54891B8370CC00DBC0CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D4E548A1B8370CC00DBC0CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D4E548D1B8370CC00DBC0CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D4E548F1B8370CC00DBC0CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4D4E54921B8370CC00DBC0CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4D4E54981B8370CC00DBC0CB /* WMHamburgerButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WMHamburgerButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D4E549D1B8370CC00DBC0CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D4E549E1B8370CC00DBC0CB /* WMHamburgerButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMHamburgerButtonTests.m; sourceTree = "<group>"; };
+		4D4E54AA1B8370EA00DBC0CB /* WMHamburgerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMHamburgerButton.h; sourceTree = "<group>"; };
+		4D4E54AB1B8370EA00DBC0CB /* WMHamburgerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMHamburgerButton.m; sourceTree = "<group>"; };
+		4D4E54B51B83763600DBC0CB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		4D4E54B61B83763600DBC0CB /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		4D4E54B71B83763600DBC0CB /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		4D4E54B81B83763600DBC0CB /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		4D4E54B91B83763600DBC0CB /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		4D4E54BA1B83763600DBC0CB /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		4D4E54BB1B83763600DBC0CB /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		4D4E54BC1B83763600DBC0CB /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		4D4E54BD1B83763600DBC0CB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		4D4E54BE1B83763600DBC0CB /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		4D4E54BF1B83763600DBC0CB /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		4D4E54C01B83763600DBC0CB /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		4D4E54C11B83763600DBC0CB /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		4D4E54C21B83763600DBC0CB /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		4D4E54C31B83763600DBC0CB /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		4D4E54C41B83763600DBC0CB /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		4D4E54C51B83763600DBC0CB /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		4D4E54C61B83763600DBC0CB /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		4D4E54C71B83763600DBC0CB /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		4D4E54C81B83763600DBC0CB /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		4D4E54C91B83763600DBC0CB /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		4D4E54CA1B83763600DBC0CB /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		4D4E54CB1B83763600DBC0CB /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		4D4E54CC1B83763600DBC0CB /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		4D4E54CD1B83763600DBC0CB /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		4D4E54D91B83770300DBC0CB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D4E547C1B8370CC00DBC0CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D4E54951B8370CC00DBC0CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D4E54761B8370CC00DBC0CB = {
+			isa = PBXGroup;
+			children = (
+				4D4E54811B8370CC00DBC0CB /* WMHamburgerButton */,
+				4D4E549B1B8370CC00DBC0CB /* WMHamburgerButtonTests */,
+				4D4E54801B8370CC00DBC0CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D4E54801B8370CC00DBC0CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D4E547F1B8370CC00DBC0CB /* WMHamburgerButton.app */,
+				4D4E54981B8370CC00DBC0CB /* WMHamburgerButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D4E54811B8370CC00DBC0CB /* WMHamburgerButton */ = {
+			isa = PBXGroup;
+			children = (
+				4D4E54B31B83763600DBC0CB /* Masonry */,
+				4D4E54AE1B8370ED00DBC0CB /* HamburgerButton */,
+				4D4E54861B8370CC00DBC0CB /* AppDelegate.h */,
+				4D4E54871B8370CC00DBC0CB /* AppDelegate.m */,
+				4D4E54891B8370CC00DBC0CB /* ViewController.h */,
+				4D4E548A1B8370CC00DBC0CB /* ViewController.m */,
+				4D4E548C1B8370CC00DBC0CB /* Main.storyboard */,
+				4D4E548F1B8370CC00DBC0CB /* Images.xcassets */,
+				4D4E54911B8370CC00DBC0CB /* LaunchScreen.xib */,
+				4D4E54821B8370CC00DBC0CB /* Supporting Files */,
+			);
+			path = WMHamburgerButton;
+			sourceTree = "<group>";
+		};
+		4D4E54821B8370CC00DBC0CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D4E54831B8370CC00DBC0CB /* Info.plist */,
+				4D4E54841B8370CC00DBC0CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D4E549B1B8370CC00DBC0CB /* WMHamburgerButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D4E549E1B8370CC00DBC0CB /* WMHamburgerButtonTests.m */,
+				4D4E549C1B8370CC00DBC0CB /* Supporting Files */,
+			);
+			path = WMHamburgerButtonTests;
+			sourceTree = "<group>";
+		};
+		4D4E549C1B8370CC00DBC0CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D4E549D1B8370CC00DBC0CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D4E54AE1B8370ED00DBC0CB /* HamburgerButton */ = {
+			isa = PBXGroup;
+			children = (
+				4D4E54AA1B8370EA00DBC0CB /* WMHamburgerButton.h */,
+				4D4E54AB1B8370EA00DBC0CB /* WMHamburgerButton.m */,
+			);
+			name = HamburgerButton;
+			sourceTree = "<group>";
+		};
+		4D4E54B31B83763600DBC0CB /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				4D4E54D91B83770300DBC0CB /* Info.plist */,
+				4D4E54B51B83763600DBC0CB /* MASCompositeConstraint.h */,
+				4D4E54B61B83763600DBC0CB /* MASCompositeConstraint.m */,
+				4D4E54B71B83763600DBC0CB /* MASConstraint+Private.h */,
+				4D4E54B81B83763600DBC0CB /* MASConstraint.h */,
+				4D4E54B91B83763600DBC0CB /* MASConstraint.m */,
+				4D4E54BA1B83763600DBC0CB /* MASConstraintMaker.h */,
+				4D4E54BB1B83763600DBC0CB /* MASConstraintMaker.m */,
+				4D4E54BC1B83763600DBC0CB /* MASLayoutConstraint.h */,
+				4D4E54BD1B83763600DBC0CB /* MASLayoutConstraint.m */,
+				4D4E54BE1B83763600DBC0CB /* Masonry.h */,
+				4D4E54BF1B83763600DBC0CB /* MASUtilities.h */,
+				4D4E54C01B83763600DBC0CB /* MASViewAttribute.h */,
+				4D4E54C11B83763600DBC0CB /* MASViewAttribute.m */,
+				4D4E54C21B83763600DBC0CB /* MASViewConstraint.h */,
+				4D4E54C31B83763600DBC0CB /* MASViewConstraint.m */,
+				4D4E54C41B83763600DBC0CB /* NSArray+MASAdditions.h */,
+				4D4E54C51B83763600DBC0CB /* NSArray+MASAdditions.m */,
+				4D4E54C61B83763600DBC0CB /* NSArray+MASShorthandAdditions.h */,
+				4D4E54C71B83763600DBC0CB /* NSLayoutConstraint+MASDebugAdditions.h */,
+				4D4E54C81B83763600DBC0CB /* NSLayoutConstraint+MASDebugAdditions.m */,
+				4D4E54C91B83763600DBC0CB /* View+MASAdditions.h */,
+				4D4E54CA1B83763600DBC0CB /* View+MASAdditions.m */,
+				4D4E54CB1B83763600DBC0CB /* View+MASShorthandAdditions.h */,
+				4D4E54CC1B83763600DBC0CB /* ViewController+MASAdditions.h */,
+				4D4E54CD1B83763600DBC0CB /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D4E547E1B8370CC00DBC0CB /* WMHamburgerButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D4E54A21B8370CC00DBC0CB /* Build configuration list for PBXNativeTarget "WMHamburgerButton" */;
+			buildPhases = (
+				4D4E547B1B8370CC00DBC0CB /* Sources */,
+				4D4E547C1B8370CC00DBC0CB /* Frameworks */,
+				4D4E547D1B8370CC00DBC0CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WMHamburgerButton;
+			productName = WMHamburgerButton;
+			productReference = 4D4E547F1B8370CC00DBC0CB /* WMHamburgerButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D4E54971B8370CC00DBC0CB /* WMHamburgerButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D4E54A51B8370CC00DBC0CB /* Build configuration list for PBXNativeTarget "WMHamburgerButtonTests" */;
+			buildPhases = (
+				4D4E54941B8370CC00DBC0CB /* Sources */,
+				4D4E54951B8370CC00DBC0CB /* Frameworks */,
+				4D4E54961B8370CC00DBC0CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D4E549A1B8370CC00DBC0CB /* PBXTargetDependency */,
+			);
+			name = WMHamburgerButtonTests;
+			productName = WMHamburgerButtonTests;
+			productReference = 4D4E54981B8370CC00DBC0CB /* WMHamburgerButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D4E54771B8370CC00DBC0CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = yq;
+				TargetAttributes = {
+					4D4E547E1B8370CC00DBC0CB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					4D4E54971B8370CC00DBC0CB = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 4D4E547E1B8370CC00DBC0CB;
+					};
+				};
+			};
+			buildConfigurationList = 4D4E547A1B8370CC00DBC0CB /* Build configuration list for PBXProject "WMHamburgerButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D4E54761B8370CC00DBC0CB;
+			productRefGroup = 4D4E54801B8370CC00DBC0CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D4E547E1B8370CC00DBC0CB /* WMHamburgerButton */,
+				4D4E54971B8370CC00DBC0CB /* WMHamburgerButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D4E547D1B8370CC00DBC0CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4E54DA1B83770300DBC0CB /* Info.plist in Resources */,
+				4D4E548E1B8370CC00DBC0CB /* Main.storyboard in Resources */,
+				4D4E54931B8370CC00DBC0CB /* LaunchScreen.xib in Resources */,
+				4D4E54901B8370CC00DBC0CB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D4E54961B8370CC00DBC0CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D4E547B1B8370CC00DBC0CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4E54D11B83763600DBC0CB /* MASConstraintMaker.m in Sources */,
+				4D4E54AD1B8370EA00DBC0CB /* WMHamburgerButton.m in Sources */,
+				4D4E548B1B8370CC00DBC0CB /* ViewController.m in Sources */,
+				4D4E54D01B83763600DBC0CB /* MASConstraint.m in Sources */,
+				4D4E54D81B83763600DBC0CB /* ViewController+MASAdditions.m in Sources */,
+				4D4E54D21B83763600DBC0CB /* MASLayoutConstraint.m in Sources */,
+				4D4E54D51B83763600DBC0CB /* NSArray+MASAdditions.m in Sources */,
+				4D4E54D41B83763600DBC0CB /* MASViewConstraint.m in Sources */,
+				4D4E54D31B83763600DBC0CB /* MASViewAttribute.m in Sources */,
+				4D4E54D71B83763600DBC0CB /* View+MASAdditions.m in Sources */,
+				4D4E54881B8370CC00DBC0CB /* AppDelegate.m in Sources */,
+				4D4E54851B8370CC00DBC0CB /* main.m in Sources */,
+				4D4E54CF1B83763600DBC0CB /* MASCompositeConstraint.m in Sources */,
+				4D4E54D61B83763600DBC0CB /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D4E54941B8370CC00DBC0CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4E549F1B8370CC00DBC0CB /* WMHamburgerButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D4E549A1B8370CC00DBC0CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D4E547E1B8370CC00DBC0CB /* WMHamburgerButton */;
+			targetProxy = 4D4E54991B8370CC00DBC0CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D4E548C1B8370CC00DBC0CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D4E548D1B8370CC00DBC0CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D4E54911B8370CC00DBC0CB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D4E54921B8370CC00DBC0CB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D4E54A01B8370CC00DBC0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D4E54A11B8370CC00DBC0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D4E54A31B8370CC00DBC0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WMHamburgerButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D4E54A41B8370CC00DBC0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WMHamburgerButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4D4E54A61B8370CC00DBC0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WMHamburgerButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WMHamburgerButton.app/WMHamburgerButton";
+			};
+			name = Debug;
+		};
+		4D4E54A71B8370CC00DBC0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WMHamburgerButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WMHamburgerButton.app/WMHamburgerButton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D4E547A1B8370CC00DBC0CB /* Build configuration list for PBXProject "WMHamburgerButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D4E54A01B8370CC00DBC0CB /* Debug */,
+				4D4E54A11B8370CC00DBC0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D4E54A21B8370CC00DBC0CB /* Build configuration list for PBXNativeTarget "WMHamburgerButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D4E54A31B8370CC00DBC0CB /* Debug */,
+				4D4E54A41B8370CC00DBC0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D4E54A51B8370CC00DBC0CB /* Build configuration list for PBXNativeTarget "WMHamburgerButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D4E54A61B8370CC00DBC0CB /* Debug */,
+				4D4E54A71B8370CC00DBC0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D4E54771B8370CC00DBC0CB /* Project object */;
+}
