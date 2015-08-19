@@ -10,4 +10,9 @@
 
 @interface WMHamburgerButton : UIControl
 
+/**
+ *  线宽，默认为高度的 1/7
+ */
+@property (nonatomic, assign) CGFloat lineHeight;
+
 @end
