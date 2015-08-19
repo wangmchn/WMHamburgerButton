@@ -21,6 +21,11 @@
 }
 @synthesize selected = _selected;
 
+- (void)setLineHeight:(CGFloat)lineHeight {
+    _lineHeight = lineHeight;
+    [self layoutSubviews];
+}
+
 - (id)initWithCoder:(NSCoder *)aDecoder {
     if (self = [super initWithCoder:aDecoder]) {
         [self setup];
@@ -41,7 +46,7 @@
     _hamburgerWidth = CGRectGetWidth(self.bounds);
     _hamburgerHeight = CGRectGetHeight(self.bounds);
     // MARK:线宽在这定义，可自行修改
-    _hamburgerLayerHeight = _hamburgerHeight / 7.0;
+    _hamburgerLayerHeight = self.lineHeight > 0 ? self.lineHeight : _hamburgerHeight / 7.0;
     CGFloat cornerRadius =  _hamburgerLayerHeight / 2.0;
     
     self.topLayer.cornerRadius = cornerRadius;
