@@ -8,11 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+IB_DESIGNABLE
 @interface WMHamburgerButton : UIControl
 
 /**
  *  线宽，默认为高度的 1/7
  */
-@property (nonatomic, assign) CGFloat lineHeight;
+@property (nonatomic, assign) IBInspectable CGFloat lineHeight;
 
 @end
