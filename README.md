@@ -1,7 +1,7 @@
 # WMHamburgerButton
 A hamburger button with nice animation.<br>
 Inspired by ![Popping](https://github.com/schneiderandre/popping).
-Thanks for the nice repo!
+Thanks for the nice project!
 
 ## Overview
 The animation is created through `Core Animation`, <br>
