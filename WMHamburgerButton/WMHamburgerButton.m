@@ -45,7 +45,7 @@
     [super layoutSubviews];
     _hamburgerWidth = CGRectGetWidth(self.bounds);
     _hamburgerHeight = CGRectGetHeight(self.bounds);
-    // MARK:线宽在这定义，可自行修改
+
     _hamburgerLayerHeight = self.lineHeight > 0 ? self.lineHeight : _hamburgerHeight / 7.0;
     CGFloat cornerRadius =  _hamburgerLayerHeight / 2.0;
     
@@ -144,7 +144,9 @@
 }
 
 - (void)animateToClose {
+    
     [self removeAllAnimations];
+    
     // top
     CAKeyframeAnimation *topRotation = [CAKeyframeAnimation animationWithKeyPath:@"transform.rotation"];
     topRotation.values = @[@0, @(M_PI_4), @(M_PI_4*5/4), @(M_PI_4)];
