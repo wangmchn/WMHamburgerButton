@@ -9,7 +9,6 @@ so you don't need to rely on [pop](https://github.com/facebook/pop).<br>
 <img height="350" src="https://github.com/wangmchn/WMHamburgerButton/blob/master/WMHamburgerButton/ScreenShot/HamburgerButton.gif"/>
 <br>
 And also support xib / storyboard.<br>
-<img height="350" src="https://github.com/wangmchn/WMHamburgerButton/blob/master/WMHamburgerButton/ScreenShot/HamburgerButtonWithStroyboard.gif"/>
 <br>
 ## Usage
 
